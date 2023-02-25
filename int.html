@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="int.css">
 </head>
 <body>
+  <div class="box">
+     <div class="box1">
     <h1 id="title">calculator</h1>
    <label>1st number:</label><input type="text" id="firstNum"><br><br>
    <label>2nd number:</label><input type="text" id="secondNum"><br><br>
@@ -22,7 +25,8 @@
 
    <button id="compute" onclick="compute()">compute</button>
    <h2 id="result">result</h2>
-
+    </div>
+     </div>
    <script>
      function compute(){
         let first = document.getElementById('firstNum').value;
