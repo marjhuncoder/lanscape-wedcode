@@ -1,0 +1,25 @@
+*{box-sizing: border-box;}
+body{
+ height: 1000px;
+ background-color:rgb(78, 133, 133);
+}
+#title{
+    color:rgb(72, 0, 255);
+
+}
+#result{
+    color: rgb(89, 10, 86)'
+}
+.box{ 
+    
+    border:1px solid red;
+    width:100%;
+    padding:20px;
+    height: 100vh;
+}
+.box1{
+   background-color: azure;
+   width:fit-content;
+
+
+}
