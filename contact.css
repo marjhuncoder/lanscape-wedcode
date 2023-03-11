@@ -13,9 +13,12 @@ header{
   
 
 }
-h1{margin-right:auto;
+.jun{margin-right:auto;
     color:rgb(11, 92, 241);
 }
+.jun a:hover{
+    color:rgb(64, 47, 65);
+  }
 
 ul{
     font-family:verdana;
@@ -31,8 +34,8 @@ li{
     cursor:pointer;
     
 }
-li:hover{
-    font-size:larger;
+li a:hover{
+    color:#0c3b30;
     display: inline-block;
 }
 
@@ -51,7 +54,6 @@ li:hover{
     text-shadow: 2px 2px 5px rgb(184, 87, 7);
     font-size: larger;
     margin:0;
-    
 }
 /*.banner2{
     width:100%;
@@ -128,4 +130,22 @@ footer{
         text-decoration: none;
         display: block;
       }
-      .dropdown-content a:hover {background-color: #b7e4b7}
+      .dropdown-content a:hover {
+        color:#0c3b30;
+      }
+  
+   .nav{
+    background-color:antiquewhite;
+    max-width:10%;
+    height: 60vh;
+  }
+  .sub-nav{
+    border:2px solid red;
+    width:7%;
+    height:100vh;
+    float:left;
+    z-index:99;
+    margin-left:0;
+    top:left;
+    padding:0;
+  }

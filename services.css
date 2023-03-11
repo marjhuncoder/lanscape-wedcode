@@ -49,8 +49,8 @@ h1{margin-right: auto;
     padding:12px;
    
 }
-.myhead li:hover{
-    font-size:larger;
+.myhead li a:hover{
+    color:rgb(43, 70, 69);
     display: inline-block;
 }
 
@@ -172,4 +172,4 @@ li.dropdown{
     text-decoration: none;
     display: block;
   }
-  .dropdown-content a:hover {background-color: #b7e4b7}
+  /*.dropdown-content a:hover {background-color: #b7e4b7}*/

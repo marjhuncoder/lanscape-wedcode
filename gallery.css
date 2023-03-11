@@ -18,8 +18,11 @@ header{
 
 }
 
-h1{margin-right: auto;
+.jun{margin-right: auto;
     color:rgb(11, 92, 241);
+}
+.jun a:hover{
+  color:rgb(77, 67, 86);
 }
 ul{
     font-family:verdana;
@@ -36,8 +39,8 @@ li{
     cursor:pointer;
 }
 
-li :hover{
-    font-size: large;
+li a:hover{
+    color:rgb(2, 41, 41);
     display: inline-block;
 }
 .dropdown{
@@ -63,7 +66,7 @@ display:inline-block;
     text-decoration: none;
     display: block;
   }
-  .dropdown-content a:hover {background-color: #b7e4b7}
+  /*.dropdown-content a:hover {background-color: #b7e4b7}*/
 
 
    .banner{
@@ -119,5 +122,3 @@ button{
   cursor:pointer;
   background-color: darkcyan;
 }
-  
-  

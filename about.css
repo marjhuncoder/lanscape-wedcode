@@ -59,8 +59,8 @@ li{
     
 }
 
-li:hover{
-font-size: large;
+li a:hover{
+color:rgb(33, 53, 46);
 display: inline-block;
 }
 
@@ -149,4 +149,4 @@ footer{
         text-decoration: none;
         display: block;
       }
-      .dropdown-content a:hover {background-color: #b7e4b7};
+      /*.dropdown-content a:hover {background-color: #b7e4b7};*/
