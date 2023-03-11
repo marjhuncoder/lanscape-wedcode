@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        class Employee{
+            constructor (name,job,year){
+                this.name = name;
+                this.job = job;
+                this.year = year;
+            }
+
+              static displayWelcome(){
+                return 'welcome to our company';
+              }
+            getJobDetails(){
+                return `${this.name} is a ${this.job} he started on ${this.year}`
+            }
+        }
+       // const emp1 = new Employee("Juan","Programmer",2019);
+         //console.log(emp1);
+         //console.log(emp1.getJobDetails());
+          console.log(Employee.displayWelcome());
+    </script>
+</body>
+</html>
