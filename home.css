@@ -29,8 +29,11 @@ header{
    top:0;
 
 }
-h1{margin-right: auto;
+.jun{margin-right: auto;
     color:rgb(11, 92, 241);
+}
+.jun a:hover{
+    color:rgb(73, 60, 86);
 }
 
 ul{
@@ -45,11 +48,12 @@ li {
     display:inline-block;
     padding: 12px;
     cursor:pointer;
+    font-size: large; 
 }
 
 
 li a:hover{
-    color:rgb(82, 57, 82);
+    color:rgb(51, 83, 66);
 }
 
 .banner--text{

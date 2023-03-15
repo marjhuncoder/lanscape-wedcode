@@ -27,16 +27,18 @@ header{
    background-color: darkgrey;
 
 }
-h1{margin-right: auto;
+.jun{margin-right: auto;
     color:rgb(11, 92, 241);
 }
-
+.jun a:hover{
+    color:rgb(72, 56, 86);
+}
 .myhead{
     font-family:verdana;
     list-style-type:none;
     display: inline-block;
     z-index: 100;
-   
+    font-size: large; 
    
 }
 

@@ -40,6 +40,7 @@ transform:translateX(-50%);
   margin:1px;
   transform:translateX(-200px);
   transition:0.3s;
+  color:rgb(105, 196, 53);
 }
 .rating{
   position:absolute;
@@ -82,14 +83,14 @@ li.dropdown{
 
 
 li:hover{
-  background-color:rgb(85, 116, 120);
-  color:blue;
+  background-color:rgb(179, 236, 222);
+  color:rgb(72, 165, 193);
   display:inline-block;
   cursor:pointer;
 }
 .dropdown:hover .dropdown-content{
   display: block;
-  background-color:rgb(85, 116, 120);
+  background-color:rgb(179, 236, 222);
 }
 
 .dropdown-content  {
