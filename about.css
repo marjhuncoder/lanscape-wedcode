@@ -27,7 +27,7 @@ header{
 
 }
 
-h1{margin-right: auto;
+.jun{margin-right: auto;
     color:rgb(241, 11, 88);
 }
 /*.nav{
@@ -44,6 +44,9 @@ h1{margin-right: auto;
    margin-right:10px;
    padding:8px;
 }*/
+.jun a:hover{
+  color:rgb(96, 83, 109);
+}
 ul{
     font-family:verdana;
     list-style-type:none;
@@ -56,6 +59,7 @@ li{
     display:inline-block;
     padding: 12px;
     cursor:pointer;
+    font-size: large; 
     
 }
 
