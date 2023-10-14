@@ -24,11 +24,14 @@ header{
     top:0;
     width:100%;
     padding:1px;
-   background-color: darkgrey;
-
+   background-color:darkgrey;
 }
-.jun{margin-right: auto;
-    color:rgb(11, 92, 241);
+.jun{ margin-right: auto;
+    color:rgb(24, 78, 14);
+}
+
+.jun a{ margin:20px;
+    color:rgb(24, 78, 14);
 }
 .jun a:hover{
     color:rgb(72, 56, 86);
@@ -44,11 +47,19 @@ header{
 
 .myhead li{
     color:rgb(8, 101, 241);
-    padding: 10px;
     cursor:pointer;
     display: inline-block;
     font-size: large; 
-    padding:12px;
+    padding:15px;
+   
+}
+
+.myhead li a{
+    color:rgb(8, 101, 241);
+    cursor:pointer;
+    display: inline-block;
+    font-size: large; 
+    padding:5px;
    
 }
 .myhead li a:hover{
@@ -77,11 +88,18 @@ header{
 
     
 }
-button{
+bot{
     text-align: center; 
     color: rgb(3, 1, 19);
     border:1px solid rgb(9, 23, 224);
     background-color:whitesmoke;
+}
+.bot1{
+    font-weight: bold;
+    background-color:aquamarine;
+    width:100px;
+    border-radius:10px;
+
 }
 .welcome{
     width: 100%;
@@ -125,6 +143,10 @@ button{
       width: 49.99999%;
       margin: 6px 0;
     }
+    .bot{margin-left:20px;
+        display:flex;
+
+    }
   }
   
   @media only screen and (max-width: 500px) {
@@ -152,7 +174,7 @@ li.dropdown{
             
     .dropdown-content{
         position: absolute;
-        right: 148px;
+        right: 160px;
         z-index: 1;
         display: none;
         min-width: 100px;
@@ -173,5 +195,6 @@ li.dropdown{
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+   
   }
   /*.dropdown-content a:hover {background-color: #b7e4b7}*/
